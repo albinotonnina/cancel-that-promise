@@ -1,0 +1,26 @@
+{
+  "name": "cancel-that-promise",
+  "version": "1.0.1",
+  "description": "Promise wrapper",
+  "main": "dist/cancelable.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-env --out-dir dist",
+    "builds": "babel src -d dist",
+    "prepublish": "npm run build",
+    "test": "jest src"
+  },
+  "author": "Albino Tonnina",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albinotonnina/cancel-that-promise.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "babel-jest": "^21.2.0"
+  }
+}
