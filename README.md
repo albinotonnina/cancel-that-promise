@@ -1,4 +1,6 @@
 # Cancel that promise
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/albinotonnina/cancel-that-promise.svg)](https://greenkeeper.io/)
 Inspired by [this](https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html) article from React blog.
 
 ## isMounted is an Antipattern
